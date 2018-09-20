@@ -9,6 +9,12 @@
     <link href="https://fonts.googleapis.com/css?family=Anton|Oxygen" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script>
+    function touchClass(e) {
+      document.getElementById(e).classList.toggle("touch");
+    }
+
+  </script>
   </head>
   <body>
     <header>
@@ -32,10 +38,10 @@
         <p>Fortunately, I&rsquo;ve had the opportunity to &rdquo;wear many hats&ldquo; and work the entire project lifecycle from discovery to rollout and evaluation. </p>
         <p>Here are a few examples of the complex projects I've identified and tackled in my current role, Web Content and Design Manager for a community college.</p>
         <div class="flex-container">
-            <div class="slide" id="main"><div><h3>Increased user follow-through</h3><p>A fresh theme with clear CTAs across our top landing pages lead to increased traffic and submitted applications.</p></div></div>
-            <div class="slide" id="about"><div><h3>Built content for SEO</h3><p>Converted jargon-heavy pages at high reading levels into a modular, digestable pages with search keywords as drivers for topics and content to improve SEO scores.</p></div></div>
-            <div class="slide" id="accessibility"><div><h3>Universal Design</h3><p>Created accessible templates that worked with our CMS and custom API integrations, drastically improving our ranking with WCAG standards.</p></div></div>
-            <div class="slide" id="portal"><div><h3>CRM data integration</h3><p>Worked with all departments to organize and architect a custom web checklist for individual students based on information from our CRM, coordinated meetings and training throughout implementation.</p></div></div>
+            <div class="slide" ontouchstart="touchClass('main')" id="main"><div><h3>Increased user follow-through</h3><p>A fresh theme with clear CTAs across our top landing pages lead to increased traffic and submitted applications.</p></div></div>
+            <div class="slide" ontouchstart="touchClass('about')" id="about"><div><h3>Built content for SEO</h3><p>Converted jargon-heavy pages at high reading levels into a modular, digestable pages with search keywords as drivers for topics and content to improve SEO scores.</p></div></div>
+            <div class="slide" ontouchstart="touchClass('accessibility')" id="accessibility"><div><h3>Universal Design</h3><p>Created accessible templates that worked with our CMS and custom API integrations, drastically improving our ranking with WCAG standards.</p></div></div>
+            <div class="slide" ontouchstart="touchClass('portal')" id="portal"><div><h3>CRM data integration</h3><p>Worked with all departments to organize and architect a custom web checklist for individual students based on information from our CRM, coordinated meetings and training throughout implementation.</p></div></div>
         </div>
 
           </div>
