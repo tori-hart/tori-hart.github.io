@@ -99,7 +99,8 @@ header a {
 }
 
 header a:hover,
-header a:focus {
+header a:focus,
+header a:active {
   padding: 0.5em 0.25em;
   
 }
@@ -167,7 +168,8 @@ header a:focus {
 }
 
 #about:hover,
-#about:focus {
+#about:focus,
+#about:active {
 background-image: url('../images/search-compare.png');
 }
 
@@ -176,7 +178,8 @@ background-image: url('../images/search-compare.png');
 }
 
 #main:hover,
-#main:focus {
+#main:focus,
+#main:active {
 background-image: url('../images/apply-views.png');
 }
 
@@ -185,7 +188,8 @@ background-image: url('../images/apply-views.png');
 }
 
 #accessibility:hover,
-#accessibility:focus {
+#accessibility:focus,
+#accessibility:active {
 background-image: url('../images/accessibility-graph.png');
 }
 
@@ -195,7 +199,8 @@ background-image: url('../images/accessibility-graph.png');
 }
 
 #portal:hover,
-#portal:focus {
+#portal:focus,
+#portal:active {
     background-image: url('../images/current-student-alert.png');
 
 }
