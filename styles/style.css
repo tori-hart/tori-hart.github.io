@@ -24,7 +24,6 @@ header {
   background-image: url('../images/header-bg.jpg');
   background-size: cover;
   background-position: center;
-  height: 120px;
   color: #FFFDFC;
 }
 
@@ -49,10 +48,19 @@ main {
 }
 
 #social {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 660px) {
+
+  #social {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 50px;
+    margin: 0;
+  }
 }
 
 .wrapper {
