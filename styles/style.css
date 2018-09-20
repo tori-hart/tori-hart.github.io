@@ -165,8 +165,9 @@ header a.touch {
 
 .slide {
   background-position: center;
-  background-size: 100%;
+  background-size: contain;
   transition: all 0.3s;
+  background-repeat: no-repeat;
 
 }
 
