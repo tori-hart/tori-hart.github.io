@@ -216,3 +216,31 @@ background-image: url('../images/accessibility-graph.png');
     background-image: url('../images/current-student-alert.png');
 
 }
+
+#admissions {
+  background-image: url('../images/admissions.jpg');
+  background-position: top;
+}
+
+#admissions:hover,
+#admissions:focus,
+#admissions:active,
+#admissions.touch {
+    background-image: url('../images/admissions-hover.jpg');
+
+}
+
+#register {
+  background-image: url('../images/register.jpg');
+  background-position: top;
+}
+
+#register:hover,
+#register:focus,
+#register:active,
+#register.touch {
+    background-image: url('../images/register-hover.jpg');
+
+}
+
+
