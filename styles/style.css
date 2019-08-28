@@ -14,7 +14,11 @@ html, body {
   padding: 0;
   margin: 0;
   background-color: #FFFDFC;
-  color: #30292A;
+  color: #222222;
+}
+
+a {
+  color: #222222;
 }
 
 /* Layout */
