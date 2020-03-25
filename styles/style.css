@@ -426,9 +426,15 @@ article .flex-container .flex-item {
   width: auto;
 }
 .photo-aside {
+  margin-bottom: 2rem;
+}
+@media only screen and (min-width: 600px) {
+
+.photo-aside {
   width: 30%;
   float: left;
   margin: 0 2rem 1rem 0;
+}
 }
 
 .callout-box {
