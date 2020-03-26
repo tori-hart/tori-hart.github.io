@@ -416,9 +416,11 @@ ul.menu  {
   width: 900px;
 
 }
+@media only screen and (min-width: 600px) {
 
 article .flex-container .flex-item {
   flex: 0 1 50%;
+}
 }
 .center {
   margin: 0 auto;
@@ -430,11 +432,11 @@ article .flex-container .flex-item {
 }
 @media only screen and (min-width: 600px) {
 
-.photo-aside {
-  width: 30%;
-  float: left;
-  margin: 0 2rem 1rem 0;
-}
+  .photo-aside {
+    width: 30%;
+    float: left;
+    margin: 0 2rem 1rem 0;
+  }
 }
 
 .callout-box {
