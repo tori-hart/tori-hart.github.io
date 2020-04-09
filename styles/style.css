@@ -440,7 +440,6 @@ article .flex-container .flex-item {
 }
 
 .callout-box {
-  margin: 1rem 0;
   padding: 1rem;
   background: var(--lt-gray);
 }
