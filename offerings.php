@@ -1,7 +1,7 @@
 <section id="offerings" class="wrapper">
     <h2>Offerings</h2>
 <div class="flex-container gallery offering-gallery">
-    <!-- <div class="flex-item">
+    <div class="flex-item">
         <div class="photo-wrapper">
             <h3 class="title">Incubation Brew</h3>
             <img src="images/potions1.png" alt="drawing of potion bottle"/>
@@ -20,7 +20,7 @@
 
         <p class="subtitle">Give your brand a gentle cleansing and recharge. A fresh start for the next phase of your journey.</p>
         <a href="offerings/rejuvination-tonic.php" class="button">Read the Rejuvination Tonic label</a>
-    </div> -->
+    </div>
     <div class="flex-item">
     <div class="photo-wrapper">
         
