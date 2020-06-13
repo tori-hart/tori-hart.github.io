@@ -95,6 +95,13 @@
   
   /* Layout */
 
+  .word-fill-field, .words {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+  }
+
   img {
     max-width: 100%;
   }
