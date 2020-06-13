@@ -98,7 +98,6 @@
   .word-fill-field, .words {
     display: inline-block;
     padding: 1rem 0.25rem;
-
   }
 
   img {
@@ -119,17 +118,15 @@
   }
 
   header h1 {
-    width: 510px;
     display: block;
     line-height: 1em;
     margin: 0 0 1rem 0;
-    padding: 1rem;
+    padding: 1rem 2rem;
     background-color: rgba(0,0,0,0.5);
   }
 
   header p {
     text-align: left;
-    width: 50%;
     margin: 0;
     line-height: 1.25em;
     padding: 1.5rem;
@@ -248,13 +245,6 @@ ul.menu  {
   display: flex;
   justify-content: space-around;
 }
-}
-@media only screen and (min-width: 680px) {
-  header {
-    padding: 10vh;
-    min-height: 50vh;
-  }
-  
 }
 
 @media only screen and (max-width: 600px) {
