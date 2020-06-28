@@ -103,18 +103,19 @@
   img {
     max-width: 100%;
   }
+
+  header .wrapper {
+    background-color: rgba(0,0,0,0.5);
+    padding: 1rem;
+  }
   
   header {
-    color: var(--background);
     position: relative;
     background-image: url('../images/header.jpg');
     background-size: cover;
     background-position: bottom center;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    padding: 1rem;
   }
 
   header h1 {
