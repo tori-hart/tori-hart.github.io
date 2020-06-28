@@ -76,23 +76,6 @@
     border: 4px solid var(--neon-mint);
     margin: 0;
     }
-
-  .button-white {
-    font-family: 'Anton', sans-serif;  
-      display: inline-block;
-      border: 2px solid var(--background);
-      padding: 0.5em 1em;
-      border-radius: 0;
-      transition: background 0.5s ease;
-      background-color: transparent;
-    color: var(--background);
-  }
-
-  .button-white:hover {
-    background-color: var(--neon-mint);
-      color: var(--text);
-  }
-  
   /* Layout */
 
   .word-fill-field, .words {
