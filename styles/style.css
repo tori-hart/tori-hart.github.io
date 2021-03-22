@@ -365,6 +365,10 @@ a:hover:after {
 	width: 100%;
 }
 
+figcaption {
+	font-size: small;
+	text-align: center;
+}
 .project {
 	padding: 2em 0;
 	width: 1000px;
