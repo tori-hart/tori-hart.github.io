@@ -276,6 +276,7 @@
     
     .image-hero {
         text-align: center;
+        background-color: #dddddd;
     }
     
     @media (min-width: 780px) {
@@ -504,6 +505,7 @@
         margin: 0 auto;
         padding: 1em;
         text-align: center;
+        background-color: #dddddd;
     }
     
     .footer #contact {
